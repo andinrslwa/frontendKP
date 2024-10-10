@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Header Styling */
+header {
+  background-color: #333; /* Dark background color */
+  padding: 10px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styling the h1 */
+header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Navbar Styling */
+nav ul {
+  list-style: none; /* Remove bullet points */
+  display: flex; /* Flexbox for horizontal layout */
+  gap: 20px; /* Space between menu items */
+}
+
+/* Individual Nav Item */
+nav ul li {
+  font-size: 18px;
+}
+
+/* Link Styling */
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #555; /* Hover effect */
+}
+
+.section-materi {
+  min-height: 100vh;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.materi-1 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.materi1-image {
+  margin-top: 0;
+  width: 280px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.wrap-image1{
+    margin-top:10px;
+    align-items: center ;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-materi button{
+    margin-top: 170px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(240, 14, 14);
+    font-weight: bold;
+    color: white;
+}
+
+.section-materi button:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(240, 14, 14) ;
+}

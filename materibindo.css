@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Header Styling */
+header {
+  background-color: #333; /* Dark background color */
+  padding: 10px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styling the h1 */
+header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Navbar Styling */
+nav ul {
+  list-style: none; /* Remove bullet points */
+  display: flex; /* Flexbox for horizontal layout */
+  gap: 20px; /* Space between menu items */
+}
+
+/* Individual Nav Item */
+nav ul li {
+  font-size: 18px;
+}
+
+/* Link Styling */
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #555; /* Hover effect */
+}
+
+h1 {
+  text-align: center;
+}
